@@ -1,0 +1,18 @@
+.formSearch{
+    width: 550px;
+    height: 25vh;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input,button{
+        padding: var(--xxsmall);
+    }
+    
+    input{
+        width: 25rem;
+        font-weight: 700;
+    }
+}

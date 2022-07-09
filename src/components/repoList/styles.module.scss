@@ -1,0 +1,54 @@
+.defaultSection{
+    max-width: 625px;
+    margin: 0 auto;
+    border:1px solid var(--grey-100);
+    border-radius:4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    
+    .sectionHead{
+        display:  flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        .title h2{
+            display: inline-block;
+            font-size: 13pt;
+            margin-right: 5px;
+        }
+    }
+
+    .repo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding:15px 0;
+    
+        &:not(:first-child){
+            border-top: 1px solid var(--grey-100);
+        }
+    
+        .repoIcon{
+            width: 40px;
+            height: 40px;
+            background-color: var(--grey-200);
+            border-radius: 5px;
+            margin-right: 15px;
+            line-height: 40px;
+            text-align: center;
+        }
+    
+        .repoInfo p{
+            font-weight: 500;
+    
+            &.repoInfoType{
+                background-color: var(--grey-100);
+                padding: 2px 4px;
+                border-radius: 3px;
+                display: inline-flex;
+                font-size: 8pt;
+                color: var(--grey-400);
+            }
+        }
+    }
+}
